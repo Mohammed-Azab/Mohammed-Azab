@@ -13,6 +13,8 @@
 - **Fun fact: As a child, I used to take apart toys just to figure out how to make my own!**
 
 
+**Want to know more?** Visit my portfolio at **[mohammedazab.com](https://mohammedazab.com)**
+
 # **GitHub Stats**
 
 <div align="center">
