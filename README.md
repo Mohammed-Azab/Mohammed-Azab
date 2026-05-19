@@ -18,7 +18,7 @@
 # **GitHub Stats**
 
 <div align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=mohammed-azab&theme=github_dark&hide_border=false" alt="GitHub Streak" /><br/>
+  <img src="https://streak-stats.demolab.com/?user=mohammed-azab&theme=github-dark&hide_border=false" alt="GitHub Streak" /><br/>
 </div>
 
 ---
