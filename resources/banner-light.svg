@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <rect width="1200" height="260" fill="#eaeaf5"/>
+  <text x="64" y="118" font-family="Times New Roman, Times, serif" font-size="68" font-weight="700" fill="#0d1033">Mohammed <tspan fill="#1e5ac3">Azab</tspan></text>
+  <rect x="66" y="142" width="72" height="4" fill="#1e5ac3"/>
+  <text x="64" y="190" font-family="Times New Roman, Times, serif" font-size="26" fill="#4a5888">M.Sc. Computational Science and Engineering, TUM</text>
+  <text x="64" y="226" font-family="Times New Roman, Times, serif" font-size="22" fill="#4a5888">Autonomous Driving · Reinforcement Learning · Model Predictive Control</text>
+</svg>
