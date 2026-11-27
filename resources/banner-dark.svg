@@ -1,34 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="482" viewBox="0 0 900 482" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">
   <style>
-    .p, .o { opacity: 0; animation: fade 0.35s ease-out forwards; }
+    .p, .o { opacity: 0; }
     .o { transform: translateY(4px); }
-    .t { clip-path: inset(0 100% 0 0); animation-name: type; animation-timing-function: steps(var(--n)); animation-fill-mode: forwards; }
+    .t { clip-path: inset(0 100% 0 0); }
     .c { animation: blink 1s steps(1) infinite; }
-    @keyframes fade { to { opacity: 1; transform: none; } }
-    @keyframes type { to { clip-path: inset(0 0 0 0); } }
     @keyframes blink { 50% { opacity: 0; } }
-    @media (prefers-reduced-motion: reduce) { .p, .o, .t { animation: none; opacity: 1; clip-path: none; transform: none; } }
   </style>
   <rect width="900" height="482" rx="14" fill="#0d1117"/>
   <rect width="900" height="40" rx="14" fill="#161b22"/>
   <rect y="26" width="900" height="14" fill="#161b22"/>
   <circle cx="26" cy="20" r="7" fill="#ff5f57"/><circle cx="50" cy="20" r="7" fill="#febc2e"/><circle cx="74" cy="20" r="7" fill="#28c840"/>
   <text x="450" y="26" text-anchor="middle" font-size="14" fill="#8b949e">azab@munich: ~</text>
-  <text x="40" y="92" class="p" style="animation-delay:0.50s" fill="#3fb950">❯</text>
-  <text x="62" y="92" class="t" style="--n:6;--w:65px;animation-delay:0.65s,0s;animation-duration:0.27s" xml:space="preserve"><tspan fill="#e6edf3">whoami</tspan></text>
-  <text x="40" y="122" class="o" style="animation-delay:1.27s" xml:space="preserve"><tspan fill="#5c85ff" font-weight="700">Mohammed Azab</tspan></text>
-  <text x="40" y="152" class="p" style="animation-delay:1.74s" fill="#3fb950">❯</text>
-  <text x="62" y="152" class="t" style="--n:44;--w:477px;animation-delay:1.89s,0s;animation-duration:1.98s" xml:space="preserve"><tspan fill="#e6edf3">git diff 2025..HEAD -- career.yml degree.yml</tspan></text>
-  <text x="40" y="182" class="o" style="animation-delay:4.22s" xml:space="preserve"><tspan fill="#39c5cf">@@ career.yml @@</tspan></text>
-  <text x="40" y="212" class="o" style="animation-delay:4.34s" xml:space="preserve"><tspan fill="#f85149">- role:   Software Engineer (ADAS/AD) @ CARIAD</tspan></text>
-  <text x="40" y="242" class="o" style="animation-delay:4.46s" xml:space="preserve"><tspan fill="#3fb950">+ role:   AI Engineer @ Dassault Systèmes</tspan></text>
-  <text x="40" y="272" class="o" style="animation-delay:4.58s" xml:space="preserve"><tspan fill="#39c5cf">@@ degree.yml @@</tspan></text>
-  <text x="40" y="302" class="o" style="animation-delay:4.70s" xml:space="preserve"><tspan fill="#f85149">- degree: B.Sc. Mechatronics Engineering</tspan></text>
-  <text x="40" y="332" class="o" style="animation-delay:4.82s" xml:space="preserve"><tspan fill="#3fb950">+ degree: M.Sc. Computational Science and Engineering, TUM</tspan></text>
-  <text x="40" y="362" class="p" style="animation-delay:5.29s" fill="#3fb950">❯</text>
-  <text x="62" y="362" class="t" style="--n:34;--w:369px;animation-delay:5.44s,0s;animation-duration:1.53s" xml:space="preserve"><tspan fill="#e6edf3">pdftotext cv.pdf - | grep -i focus</tspan></text>
-  <text x="40" y="392" class="o" style="animation-delay:7.32s" xml:space="preserve"><tspan fill="#ff7b72" font-weight="700">Focus</tspan><tspan fill="#e6edf3">: autonomous driving, reinforcement learning, MPC</tspan></text>
-  <text x="40" y="422" class="p" style="animation-delay:7.79s" fill="#3fb950">❯</text>
-  <text x="62" y="422" class="t" style="--n:46;--w:499px;animation-delay:7.94s,0s;animation-duration:2.07s" xml:space="preserve"><tspan fill="#e6edf3">open </tspan><tspan fill="#5c85ff" text-decoration="underline">https://mohammedazab.com</tspan><tspan fill="#8b949e">   # my portfolio</tspan></text>
-  <text x="40" y="452" class="p" style="animation-delay:10.36s" fill="#3fb950">❯ <tspan class="c" fill="#e6edf3">▌</tspan></text>
+  <text x="40" y="92" class="p" style="opacity: 1; fill:#3fb950">❯</text>
+  <text x="62" y="92" class="t" style="clip-path: inset(0 0 0 0); fill:#e6edf3;animation-delay:0.65s" xml:space="preserve"><tspan fill="#e6edf3">whoami</tspan></text>
+  <text x="40" y="122" class="o" style="opacity: 1; transform: none; fill:#5c85ff" font-weight="700" xml:space="preserve">Mohammed Azab</text>
+  <text x="40" y="152" class="p" style="opacity: 1; fill:#3fb950">❯</text>
+  <text x="62" y="152" class="t" style="clip-path: inset(0 0 0 0); fill:#e6edf3;animation-delay:1.89s" xml:space="preserve"><tspan fill="#e6edf3">git diff 2025..HEAD -- career.yml degree.yml</tspan></text>
+  <text x="40" y="182" class="o" style="opacity: 1; transform: none; fill:#39c5cf" xml:space="preserve">@@ career.yml @@</text>
+  <text x="40" y="212" class="o" style="opacity: 1; transform: none; fill:#f85149" xml:space="preserve">- role:   Software Engineer (ADAS/AD) @ CARIAD</text>
+  <text x="40" y="242" class="o" style="opacity: 1; transform: none; fill:#3fb950" xml:space="preserve">+ role:   AI Engineer @ Dassault Systèmes</text>
+  <text x="40" y="272" class="o" style="opacity: 1; transform: none; fill:#39c5cf" xml:space="preserve">@@ degree.yml @@</text>
+  <text x="40" y="302" class="o" style="opacity: 1; transform: none; fill:#f85149" xml:space="preserve">- degree: B.Sc. Mechatronics Engineering</text>
+  <text x="40" y="332" class="o" style="opacity: 1; transform: none; fill:#3fb950" xml:space="preserve">+ degree: M.Sc. Computational Science and Engineering, TUM</text>
+  <text x="40" y="362" class="p" style="opacity: 1; fill:#3fb950">❯</text>
+  <text x="62" y="362" class="t" style="clip-path: inset(0 0 0 0); fill:#e6edf3;animation-delay:5.44s" xml:space="preserve"><tspan fill="#e6edf3">pdftotext cv.pdf - | grep -i focus</tspan></text>
+  <text x="40" y="392" class="o" style="opacity: 1; transform: none; fill:#ff7b72" font-weight="700" xml:space="preserve"><tspan fill="#ff7b72">Focus</tspan><tspan fill="#e6edf3">: autonomous driving, reinforcement learning, MPC</tspan></text>
+  <text x="40" y="422" class="p" style="opacity: 1; fill:#3fb950">❯</text>
+  <text x="62" y="422" class="t" style="clip-path: inset(0 0 0 0); fill:#e6edf3;animation-delay:7.94s" xml:space="preserve"><tspan fill="#e6edf3">open </tspan><tspan fill="#5c85ff" text-decoration="underline">https://mohammedazab.com</tspan><tspan fill="#8b949e">   # my portfolio</tspan></text>
+  <text x="40" y="452" class="p" style="opacity: 1; fill:#3fb950">❯ <tspan class="c" fill="#e6edf3">▌</tspan></text>
 </svg>
