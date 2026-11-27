@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="resources/banner-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="resources/banner-light.svg" />
-  <img alt="Terminal: whoami Mohammed Azab; git diff of career and degree; grep focus from cv.pdf; open portfolio at mohammedazab.com" src="resources/banner-dark.svg" />
+  <img alt="Terminal: whoami Mohammed Azab; git diff of career and degree; grep focus from cv.pdf; open https://mohammedazab.com, my portfolio" src="resources/banner-dark.svg" />
 </picture>
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-mohammedazab.com-5c85ff?style=flat&logo=googlechrome&logoColor=white)](https://mohammedazab.com)

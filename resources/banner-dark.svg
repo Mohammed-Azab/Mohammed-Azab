@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="512" viewBox="0 0 900 512" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="482" viewBox="0 0 900 482" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
   <style>
     .l { opacity: 0; animation: show 0.01s forwards; }
     .c { animation: blink 1s steps(1) infinite; }
     @keyframes show { to { opacity: 1; } }
     @keyframes blink { 50% { opacity: 0; } }
   </style>
-  <rect width="900" height="512" rx="14" fill="#0d1117"/>
+  <rect width="900" height="482" rx="14" fill="#0d1117"/>
   <rect width="900" height="40" rx="14" fill="#161b22"/>
   <rect y="26" width="900" height="14" fill="#161b22"/>
   <circle cx="26" cy="20" r="7" fill="#ff5f57"/><circle cx="50" cy="20" r="7" fill="#febc2e"/><circle cx="74" cy="20" r="7" fill="#28c840"/>
@@ -21,7 +21,6 @@
   <g class="l" style="animation-delay:3.60s"><text x="40" y="332" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#3fb950">+ degree: M.Sc. Computational Science and Engineering, TUM</tspan></text></g>
   <g class="l" style="animation-delay:4.00s"><text x="40" y="362" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#3fb950">❯ </tspan><tspan fill="#e6edf3">pdftotext cv.pdf - | grep -i focus</tspan></text></g>
   <g class="l" style="animation-delay:4.40s"><text x="40" y="392" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#ff7b72" font-weight="700">Focus</tspan><tspan fill="#e6edf3">: autonomous driving, reinforcement learning, MPC</tspan></text></g>
-  <g class="l" style="animation-delay:4.80s"><text x="40" y="422" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#3fb950">❯ </tspan><tspan fill="#e6edf3">open portfolio</tspan></text></g>
-  <g class="l" style="animation-delay:5.20s"><text x="40" y="452" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#8b949e">Opening </tspan><tspan fill="#5c85ff" text-decoration="underline">https://mohammedazab.com</tspan><tspan fill="#8b949e"> ...</tspan></text></g>
-  <g class="l" style="animation-delay:5.60s"><text x="40" y="482" font-size="18"><tspan fill="#3fb950">❯ </tspan><tspan class="c" fill="#e6edf3">▌</tspan></text></g>
+  <g class="l" style="animation-delay:4.80s"><text x="40" y="422" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#3fb950">❯ </tspan><tspan fill="#e6edf3">open </tspan><tspan fill="#5c85ff" text-decoration="underline">https://mohammedazab.com</tspan><tspan fill="#8b949e">   # my portfolio</tspan></text></g>
+  <g class="l" style="animation-delay:5.20s"><text x="40" y="452" font-size="18"><tspan fill="#3fb950">❯ </tspan><tspan class="c" fill="#e6edf3">▌</tspan></text></g>
 </svg>
