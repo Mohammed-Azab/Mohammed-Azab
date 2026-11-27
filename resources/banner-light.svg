@@ -1,33 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="482" viewBox="0 0 900 482" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18">
   <style>
     .p, .o { opacity: 0; }
-    .o { transform: translateY(4px); }
-    .t { clip-path: inset(0 100% 0 0); }
-    .c { animation: blink 1s steps(1) infinite; }
-    @keyframes fade { to { opacity: 1; } }
-    @keyframes type { to { clip-path: inset(0 0 0 0); } }
-    @keyframes blink { 50% { opacity: 0; } }
+    /* Commands stay present but are revealed by the animated clipping mask. */
+    .t { opacity: 1; clip-path: inset(0 100% 0 0); }
+    .last-prompt { opacity: 0; animation: show-last-prompt 8s linear infinite; }
+    .c { opacity: 1; visibility: hidden; animation: cursor 8s linear infinite, blink 1s steps(1) infinite; }
+
+    @keyframes show-p1 { 0%, 1.25% { opacity: 0; } 2.5%, 99.9% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes show-p2 { 0%, 16.875% { opacity: 0; } 18.125%, 99.9% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes show-p3 { 0%, 54.375% { opacity: 0; } 55.625%, 99.9% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes show-p4 { 0%, 75% { opacity: 0; } 76.25%, 99.9% { opacity: 1; } 100% { opacity: 0; } }
+
+    @keyframes show-o1 { 0%, 11.25% { opacity: 0; } 12.5%, 99.9% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes show-o2 { 0%, 30.625% { opacity: 0; } 31.875%, 99.9% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes show-o3 { 0%, 33.75% { opacity: 0; } 35%, 99.9% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes show-o4 { 0%, 36.875% { opacity: 0; } 38.125%, 99.9% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes show-o5 { 0%, 40% { opacity: 0; } 41.25%, 99.9% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes show-o6 { 0%, 43.125% { opacity: 0; } 44.375%, 99.9% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes show-o7 { 0%, 46.25% { opacity: 0; } 47.5%, 99.9% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes show-o8 { 0%, 64.375% { opacity: 0; } 65.625%, 99.9% { opacity: 1; } 100% { opacity: 0; } }
+
+    @keyframes type-t1 { 0%, 2.5% { clip-path: inset(0 100% 0 0); } 8.75%, 99.9% { clip-path: inset(0 0 0 0); } 100% { clip-path: inset(0 100% 0 0); } }
+    @keyframes type-t2 { 0%, 18.75% { clip-path: inset(0 100% 0 0); } 29.375%, 99.9% { clip-path: inset(0 0 0 0); } 100% { clip-path: inset(0 100% 0 0); } }
+    @keyframes type-t3 { 0%, 56.25% { clip-path: inset(0 100% 0 0); } 63.125%, 99.9% { clip-path: inset(0 0 0 0); } 100% { clip-path: inset(0 100% 0 0); } }
+    @keyframes type-t4 { 0%, 76.875% { clip-path: inset(0 100% 0 0); } 85%, 99.9% { clip-path: inset(0 0 0 0); } 100% { clip-path: inset(0 100% 0 0); } }
+    @keyframes show-last-prompt { 0%, 86.25% { opacity: 0; } 87.5%, 99.9% { opacity: 1; } 100% { opacity: 0; } }
+    @keyframes cursor { 0%, 86.25% { visibility: hidden; } 87.5%, 99.9% { visibility: visible; } 100% { visibility: hidden; } }
+
+    .p1 { animation: show-p1 8s linear infinite; }
+    .p2 { animation: show-p2 8s linear infinite; }
+    .p3 { animation: show-p3 8s linear infinite; }
+    .p4 { animation: show-p4 8s linear infinite; }
+    .o1 { animation: show-o1 8s linear infinite; }
+    .o2 { animation: show-o2 8s linear infinite; }
+    .o3 { animation: show-o3 8s linear infinite; }
+    .o4 { animation: show-o4 8s linear infinite; }
+    .o5 { animation: show-o5 8s linear infinite; }
+    .o6 { animation: show-o6 8s linear infinite; }
+    .o7 { animation: show-o7 8s linear infinite; }
+    .o8 { animation: show-o8 8s linear infinite; }
+    .t1 { animation: type-t1 8s linear infinite; }
+    .t2 { animation: type-t2 8s linear infinite; }
+    .t3 { animation: type-t3 8s linear infinite; }
+    .t4 { animation: type-t4 8s linear infinite; }
+
+    @media (prefers-reduced-motion: reduce) {
+      .p, .o, .c, .last-prompt { opacity: 1; visibility: visible; animation: none; }
+      .t { opacity: 1; clip-path: none; animation: none; }
+    }
   </style>
   <rect width="900" height="482" rx="14" fill="#ffffff"/>
   <rect width="900" height="40" rx="14" fill="#eaeef2"/>
   <rect y="26" width="900" height="14" fill="#eaeef2"/>
   <circle cx="26" cy="20" r="7" fill="#ff5f57"/><circle cx="50" cy="20" r="7" fill="#febc2e"/><circle cx="74" cy="20" r="7" fill="#28c840"/>
   <text x="450" y="26" text-anchor="middle" font-size="14" fill="#59636e">azab@munich: ~</text>
-  <text x="40" y="92" class="p" style="animation-delay:0.50s;animation:fade 0.35s ease-out forwards" fill="#1a7f37">❯</text>
-  <text x="62" y="92" class="t" style="animation-delay:0.65s,0s;animation-duration:0.27s;animation-name:type;animation-timing-function:steps(var(--n));animation-fill-mode:forwards" xml:space="preserve"><tspan fill="#1f2328">whoami</tspan></text>
-  <text x="40" y="122" class="o" style="animation-delay:1.27s;animation:fade 0.35s ease-out forwards" xml:space="preserve"><tspan fill="#1e5ac3" font-weight="700">Mohammed Azab</tspan></text>
-  <text x="40" y="152" class="p" style="animation-delay:1.74s;animation:fade 0.35s ease-out forwards" fill="#1a7f37">❯</text>
-  <text x="62" y="152" class="t" style="animation-delay:1.89s,0s;animation-duration:1.98s;animation-name:type;animation-timing-function:steps(var(--n));animation-fill-mode:forwards" xml:space="preserve"><tspan fill="#1f2328">git diff 2025..HEAD -- career.yml degree.yml</tspan></text>
-  <text x="40" y="182" class="o" style="animation-delay:4.22s;animation:fade 0.35s ease-out forwards" xml:space="preserve"><tspan fill="#1b7c83">@@ career.yml @@</tspan></text>
-  <text x="40" y="212" class="o" style="animation-delay:4.34s;animation:fade 0.35s ease-out forwards" xml:space="preserve"><tspan fill="#cf222e">- role:   Software Engineer (ADAS/AD) @ CARIAD</tspan></text>
-  <text x="40" y="242" class="o" style="animation-delay:4.46s;animation:fade 0.35s ease-out forwards" xml:space="preserve"><tspan fill="#1a7f37">+ role:   AI Engineer @ Dassault Systèmes</tspan></text>
-  <text x="40" y="272" class="o" style="animation-delay:4.58s;animation:fade 0.35s ease-out forwards" xml:space="preserve"><tspan fill="#1b7c83">@@ degree.yml @@</tspan></text>
-  <text x="40" y="302" class="o" style="animation-delay:4.70s;animation:fade 0.35s ease-out forwards" xml:space="preserve"><tspan fill="#cf222e">- degree: B.Sc. Mechatronics Engineering</tspan></text>
-  <text x="40" y="332" class="o" style="animation-delay:4.82s;animation:fade 0.35s ease-out forwards" xml:space="preserve"><tspan fill="#1a7f37">+ degree: M.Sc. Computational Science and Engineering, TUM</tspan></text>
-  <text x="40" y="362" class="p" style="animation-delay:5.29s;animation:fade 0.35s ease-out forwards" fill="#1a7f37">❯</text>
-  <text x="62" y="362" class="t" style="animation-delay:5.44s,0s;animation-duration:1.53s;animation-name:type;animation-timing-function:steps(var(--n));animation-fill-mode:forwards" xml:space="preserve"><tspan fill="#1f2328">pdftotext cv.pdf - | grep -i focus</tspan></text>
-  <text x="40" y="392" class="o" style="animation-delay:7.32s;animation:fade 0.35s ease-out forwards" xml:space="preserve"><tspan fill="#cf222e" font-weight="700">Focus</tspan><tspan fill="#1f2328">: autonomous driving, reinforcement learning, MPC</tspan></text>
-  <text x="40" y="422" class="p" style="animation-delay:7.79s;animation:fade 0.35s ease-out forwards" fill="#1a7f37">❯</text>
-  <text x="62" y="422" class="t" style="animation-delay:7.94s,0s;animation-duration:2.07s;animation-name:type;animation-timing-function:steps(var(--n));animation-fill-mode:forwards" xml:space="preserve"><tspan fill="#1f2328">open </tspan><tspan fill="#1e5ac3" text-decoration="underline">https://mohammedazab.com</tspan><tspan fill="#59636e">   # my portfolio</tspan></text>
-  <text x="40" y="452" class="p" style="animation-delay:10.36s;animation:fade 0.35s ease-out forwards" fill="#1a7f37">❯ <tspan class="c" fill="#1f2328">▌</tspan></text>
+  <text x="40" y="92" class="p p1" fill="#1a7f37">❯</text>
+  <text x="62" y="92" class="t t1" fill="#1f2328" xml:space="preserve"><tspan fill="#1f2328">whoami</tspan></text>
+  <text x="40" y="122" class="o o1" fill="#1e5ac3" font-weight="700" xml:space="preserve">Mohammed Azab</text>
+  <text x="40" y="152" class="p p2" fill="#1a7f37">❯</text>
+  <text x="62" y="152" class="t t2" fill="#1f2328" xml:space="preserve"><tspan fill="#1f2328">git diff 2025..HEAD -- career.yml degree.yml</tspan></text>
+  <text x="40" y="182" class="o o2" fill="#1b7c83" xml:space="preserve">@@ career.yml @@</text>
+  <text x="40" y="212" class="o o3" fill="#cf222e" xml:space="preserve">- role:   Software Engineer (ADAS/AD) @ CARIAD</text>
+  <text x="40" y="242" class="o o4" fill="#1a7f37" xml:space="preserve">+ role:   AI Engineer @ Dassault Systèmes</text>
+  <text x="40" y="272" class="o o5" fill="#1b7c83" xml:space="preserve">@@ degree.yml @@</text>
+  <text x="40" y="302" class="o o6" fill="#cf222e" xml:space="preserve">- degree: B.Sc. Mechatronics Engineering</text>
+  <text x="40" y="332" class="o o7" fill="#1a7f37" xml:space="preserve">+ degree: M.Sc. Computational Science and Engineering, TUM</text>
+  <text x="40" y="362" class="p p3" fill="#1a7f37">❯</text>
+  <text x="62" y="362" class="t t3" fill="#1f2328" xml:space="preserve"><tspan fill="#1f2328">pdftotext cv.pdf - | grep -i focus</tspan></text>
+  <text x="40" y="392" class="o o8" fill="#cf222e" font-weight="700" xml:space="preserve"><tspan fill="#cf222e">Focus</tspan><tspan fill="#1f2328">: autonomous driving, reinforcement learning, MPC</tspan></text>
+  <text x="40" y="422" class="p p4" fill="#1a7f37">❯</text>
+  <text x="62" y="422" class="t t4" fill="#1f2328" xml:space="preserve"><tspan fill="#1f2328">open </tspan><tspan fill="#1e5ac3" text-decoration="underline">https://mohammedazab.com</tspan><tspan fill="#59636e">   # my portfolio</tspan></text>
+  <text x="40" y="452" class="last-prompt" fill="#1a7f37">❯ <tspan class="c" fill="#1f2328">▌</tspan></text>
 </svg>
