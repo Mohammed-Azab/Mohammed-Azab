@@ -4,25 +4,34 @@
   <img alt="Terminal: whoami Mohammed Azab; git diff of career and degree; grep focus from cv.pdf; open https://mohammedazab.com, my portfolio" src="resources/banner-dark.svg" />
 </picture>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-mohammedazab.com-5c85ff?style=flat&logo=googlechrome&logoColor=white)](https://mohammedazab.com)
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=pgECFEoAAAAJ)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammed-azab/)
-[![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0009-3544-4916)
+
 
 ### Who Am I?
 
-- M.Sc. student in Computational Science and Engineering at the Technical University of Munich
-- AI Engineer (working student) at Dassault Systèmes; previously Software Engineer (ADAS/AD) at CARIAD
-- I work on autonomous driving, autonomous racing, model predictive control and reinforcement learning
+- Software and Robotics Engineer, 🎓 B.Sc. Mechatronics Engineering
+- M.Sc. student in Computational Science and Engineering @ TUM
+- 🗺️ lifelong traveller (27/195 countries so far)
 - Fun fact: as a child, I took apart toys just to figure out how to build my own
 
 ### Publications
 
 - **AROLA: A Modular Layered Architecture for Scaled Autonomous Racing**, IEEE Intelligent Vehicles Symposium (IV), 2026. [arXiv](https://arxiv.org/abs/2602.02730)
-- **Comfort-Aware Speed Planning over Road Anomalies: A Reinforcement Learning Approach**, B.Sc. thesis, TU Berlin, 2026. [DOI](https://doi.org/10.14279/depositonce-26841)
+- **Comfort-Aware Speed Planning over Road Anomalies: A Reinforcement Learning Approach**, B.Sc. thesis, TU Berlin, 2026. [DOI-DepositOnce](https://doi.org/10.14279/depositonce-26841)
 
 
 Want to know more? Visit my portfolio at **[mohammedazab.com](https://mohammedazab.com)**
+
+<div align="center">
+<a href="https://scholar.google.com/citations?user=pgECFEoAAAAJ">
+  <img alt="Google Scholar" src="https://img.shields.io/badge/-Google%20Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white" />
+</a>
+<a href="https://orcid.org/0009-0009-3544-4916">
+  <img alt="ORCID" src="https://img.shields.io/badge/-ORCID-A6CE39?style=flat&logo=orcid&logoColor=white" />
+</a>
+<a href="https://www.linkedin.com/in/mohammed-azab/">
+  <img alt="LinkedIn" src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" />
+</a>
+</div>
 
 ### GitHub Stats
 
