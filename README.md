@@ -1,7 +1,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="resources/banner-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="resources/banner-light.svg" />
-  <img alt="Mohammed Azab, M.Sc. Computational Science and Engineering, TUM" src="resources/banner-dark.svg" />
+  <img alt="Terminal: whoami, Mohammed Azab, M.Sc. at TUM, AI Engineer at Dassault Systèmes" src="resources/banner-dark.svg" />
 </picture>
 
 <h1>std::cout << "Hello World!, I'm Azab" ;</h1>
@@ -11,36 +11,33 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammed-azab/)
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0009-3544-4916)
 
-### Who Am I?
+### 🧠 Who Am I?
 
 - 🎓 M.Sc. student in Computational Science and Engineering at the Technical University of Munich
 - 🤖 AI Engineer (working student) at Dassault Systèmes; previously Software Engineer (ADAS/AD) at CARIAD
 - 🏎️ I work on autonomous driving, autonomous racing, model predictive control and reinforcement learning
 - 🔧 Fun fact: as a child, I took apart toys just to figure out how to build my own
 
-### Highlights
+### 🏆 Highlights
 
 - 🥇 Best Thesis Award 2026, 1st Place
 - 🥉 3rd place, RoboRacer IV25 (Cluj, Romania)
 - 🎖️ Deutschlandstipendium, TUM
 
-### Publications
+### 📄 Publications
 
 - **AROLA: A Modular Layered Architecture for Scaled Autonomous Racing**, IEEE Intelligent Vehicles Symposium (IV), 2026. [arXiv](https://arxiv.org/abs/2602.02730)
 - **Comfort-Aware Speed Planning over Road Anomalies: A Reinforcement Learning Approach**, B.Sc. thesis, TU Berlin, 2026. [DOI](https://doi.org/10.14279/depositonce-26841)
 
-### Selected Projects
+### 🚀 Things I've Built
 
-| Project | What it is |
-|---|---|
-| [CALM](https://github.com/CALM-Dataset/CALM) | RL speed planner over speed bumps and potholes, compared with nonlinear MPC (thesis) |
-| [GIU-F1Tenth](https://github.com/GIU-F1Tenth) | 1/10 scale autonomous race car, 3rd place at RoboRacer IV25 |
-| [nmpc-overhead-crane](https://github.com/Mohammed-Azab/nmpc-overhead-crane) | Nonlinear MPC for an overhead crane with swing suppression |
-| [TriFlameX](https://github.com/RoboMechanix/TriFlameX) | Three cooperative fire-fighting robots, best embedded systems project |
+- 🛣️ **[CALM](https://github.com/CALM-Dataset/CALM)**: an RL agent that learns to cross speed bumps and potholes comfortably, raced against nonlinear MPC
+- 🏎️ **[GIU-F1Tenth](https://github.com/GIU-F1Tenth)**: a 1/10 scale race car that drives itself, 3rd place at RoboRacer IV25
+- 🔥 **[TriFlameX](https://github.com/RoboMechanix/TriFlameX)**: three robots that team up to find and put out fires
 
-More on **[mohammedazab.com](https://mohammedazab.com)**.
+Want to know more? Visit **[mohammedazab.com](https://mohammedazab.com)** 👀
 
-### GitHub Stats
+### 📊 GitHub Stats
 
 <div align="center">
   <img src="https://streak-stats.demolab.com/?user=mohammed-azab&theme=github-dark&hide_border=false" alt="GitHub Streak" />
@@ -48,7 +45,7 @@ More on **[mohammedazab.com](https://mohammedazab.com)**.
 
 ---
 
-### Words to Live By
+### 💬 Words to Live By
 
 <div align="center">
 
