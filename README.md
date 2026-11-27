@@ -1,10 +1,8 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="resources/banner-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="resources/banner-light.svg" />
-  <img alt="Terminal: whoami, Mohammed Azab, M.Sc. at TUM, AI Engineer at Dassault Systèmes" src="resources/banner-dark.svg" />
+  <img alt="Terminal: whoami Mohammed Azab; git log of career; git diff from B.Sc. to M.Sc. at TUM" src="resources/banner-dark.svg" />
 </picture>
-
-<h1>std::cout << "Hello World!, I'm Azab" ;</h1>
 
 [![Website](https://img.shields.io/badge/mohammedazab.com-5c85ff?style=flat&logo=googlechrome&logoColor=white)](https://mohammedazab.com)
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=pgECFEoAAAAJ)
