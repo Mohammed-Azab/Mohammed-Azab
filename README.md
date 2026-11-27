@@ -21,11 +21,6 @@
 - **AROLA: A Modular Layered Architecture for Scaled Autonomous Racing**, IEEE Intelligent Vehicles Symposium (IV), 2026. [arXiv](https://arxiv.org/abs/2602.02730)
 - **Comfort-Aware Speed Planning over Road Anomalies: A Reinforcement Learning Approach**, B.Sc. thesis, TU Berlin, 2026. [DOI](https://doi.org/10.14279/depositonce-26841)
 
-### Things I've Built
-
-- **[CALM](https://github.com/CALM-Dataset/CALM)**: an RL agent that learns to cross speed bumps and potholes comfortably, raced against nonlinear MPC
-- **[GIU-F1Tenth](https://github.com/GIU-F1Tenth)**: a 1/10 scale race car that drives itself, 3rd place at RoboRacer IV25
-- **[TriFlameX](https://github.com/RoboMechanix/TriFlameX)**: three robots that team up to find and put out fires
 
 Want to know more? Visit my portfolio at **[mohammedazab.com](https://mohammedazab.com)**
 
