@@ -1,10 +1,10 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="resources/banner-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="resources/banner-light.svg" />
-  <img alt="Terminal: whoami Mohammed Azab; git log of career; git diff from B.Sc. to M.Sc. at TUM" src="resources/banner-dark.svg" />
+  <img alt="Terminal: whoami Mohammed Azab; git diff of career and degree; grep focus from cv.pdf; open portfolio at mohammedazab.com" src="resources/banner-dark.svg" />
 </picture>
 
-[![Website](https://img.shields.io/badge/mohammedazab.com-5c85ff?style=flat&logo=googlechrome&logoColor=white)](https://mohammedazab.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-mohammedazab.com-5c85ff?style=flat&logo=googlechrome&logoColor=white)](https://mohammedazab.com)
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=pgECFEoAAAAJ)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammed-azab/)
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white)](https://orcid.org/0009-0009-3544-4916)
@@ -27,7 +27,7 @@
 - **[GIU-F1Tenth](https://github.com/GIU-F1Tenth)**: a 1/10 scale race car that drives itself, 3rd place at RoboRacer IV25
 - **[TriFlameX](https://github.com/RoboMechanix/TriFlameX)**: three robots that team up to find and put out fires
 
-Want to know more? Visit **[mohammedazab.com](https://mohammedazab.com)**
+Want to know more? Visit my portfolio at **[mohammedazab.com](https://mohammedazab.com)**
 
 ### GitHub Stats
 

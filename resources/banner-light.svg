@@ -1,24 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="434" viewBox="0 0 900 434" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="512" viewBox="0 0 900 512" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
   <style>
     .l { opacity: 0; animation: show 0.01s forwards; }
     .c { animation: blink 1s steps(1) infinite; }
     @keyframes show { to { opacity: 1; } }
     @keyframes blink { 50% { opacity: 0; } }
   </style>
-  <rect width="900" height="434" rx="14" fill="#ffffff"/>
+  <rect width="900" height="512" rx="14" fill="#ffffff"/>
   <rect width="900" height="40" rx="14" fill="#eaeef2"/>
   <rect y="26" width="900" height="14" fill="#eaeef2"/>
   <circle cx="26" cy="20" r="7" fill="#ff5f57"/><circle cx="50" cy="20" r="7" fill="#febc2e"/><circle cx="74" cy="20" r="7" fill="#28c840"/>
   <text x="450" y="26" text-anchor="middle" font-size="14" fill="#59636e">azab@munich: ~</text>
-  <g class="l" style="animation-delay:0.40s"><text x="40" y="92" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#1a7f37">$ </tspan><tspan fill="#1f2328">whoami</tspan></text></g>
-  <g class="l" style="animation-delay:0.85s"><text x="40" y="128" font-size="30" font-weight="700" xml:space="preserve"><tspan fill="#1e5ac3">Mohammed Azab</tspan></text></g>
-  <g class="l" style="animation-delay:1.30s"><text x="40" y="164" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#1a7f37">$ </tspan><tspan fill="#1f2328">git log --oneline --graph career</tspan></text></g>
-  <g class="l" style="animation-delay:1.75s"><text x="40" y="194" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#59636e">* </tspan><tspan fill="#9a6700">a1f3c2e </tspan><tspan fill="#1b7c83">(HEAD -&gt; main) </tspan><tspan fill="#1f2328">AI Engineer @ Dassault Systèmes</tspan></text></g>
-  <g class="l" style="animation-delay:2.20s"><text x="40" y="224" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#59636e">* </tspan><tspan fill="#9a6700">7be91d0 </tspan><tspan fill="#1f2328">Software Engineer (ADAS/AD) @ CARIAD</tspan></text></g>
-  <g class="l" style="animation-delay:2.65s"><text x="40" y="254" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#59636e">* </tspan><tspan fill="#9a6700">3c0e8a4 </tspan><tspan fill="#1f2328">B.Sc. Mechatronics Engineering, GIU Berlin</tspan></text></g>
-  <g class="l" style="animation-delay:3.10s"><text x="40" y="284" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#1a7f37">$ </tspan><tspan fill="#1f2328">git diff 2025..HEAD -- degree.yml</tspan></text></g>
-  <g class="l" style="animation-delay:3.55s"><text x="40" y="314" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#cf222e">- degree: B.Sc. Mechatronics Engineering</tspan></text></g>
-  <g class="l" style="animation-delay:4.00s"><text x="40" y="344" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#1a7f37">+ degree: M.Sc. Computational Science and Engineering @ TUM</tspan></text></g>
-  <g class="l" style="animation-delay:4.45s"><text x="40" y="374" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#1a7f37">+ focus:  [autonomous-driving, reinforcement-learning, mpc]</tspan></text></g>
-  <g class="l" style="animation-delay:4.90s"><text x="40" y="404" font-size="18"><tspan fill="#1a7f37">$ </tspan><tspan class="c" fill="#1f2328">▌</tspan></text></g>
+  <g class="l" style="animation-delay:0.40s"><text x="40" y="92" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#1a7f37">❯ </tspan><tspan fill="#1f2328">whoami</tspan></text></g>
+  <g class="l" style="animation-delay:0.80s"><text x="40" y="122" font-size="18" font-weight="700" xml:space="preserve"><tspan fill="#1e5ac3">Mohammed Azab</tspan></text></g>
+  <g class="l" style="animation-delay:1.20s"><text x="40" y="152" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#1a7f37">❯ </tspan><tspan fill="#1f2328">git diff 2025..HEAD -- career.yml degree.yml</tspan></text></g>
+  <g class="l" style="animation-delay:1.60s"><text x="40" y="182" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#1b7c83">@@ career.yml @@</tspan></text></g>
+  <g class="l" style="animation-delay:2.00s"><text x="40" y="212" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#cf222e">- role:   Software Engineer (ADAS/AD) @ CARIAD</tspan></text></g>
+  <g class="l" style="animation-delay:2.40s"><text x="40" y="242" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#1a7f37">+ role:   AI Engineer @ Dassault Systèmes</tspan></text></g>
+  <g class="l" style="animation-delay:2.80s"><text x="40" y="272" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#1b7c83">@@ degree.yml @@</tspan></text></g>
+  <g class="l" style="animation-delay:3.20s"><text x="40" y="302" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#cf222e">- degree: B.Sc. Mechatronics Engineering, GIU Berlin</tspan></text></g>
+  <g class="l" style="animation-delay:3.60s"><text x="40" y="332" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#1a7f37">+ degree: M.Sc. Computational Science and Engineering, TUM</tspan></text></g>
+  <g class="l" style="animation-delay:4.00s"><text x="40" y="362" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#1a7f37">❯ </tspan><tspan fill="#1f2328">pdftotext cv.pdf - | grep -i focus</tspan></text></g>
+  <g class="l" style="animation-delay:4.40s"><text x="40" y="392" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#cf222e" font-weight="700">Focus</tspan><tspan fill="#1f2328">: autonomous driving, reinforcement learning, MPC</tspan></text></g>
+  <g class="l" style="animation-delay:4.80s"><text x="40" y="422" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#1a7f37">❯ </tspan><tspan fill="#1f2328">open portfolio</tspan></text></g>
+  <g class="l" style="animation-delay:5.20s"><text x="40" y="452" font-size="18" font-weight="400" xml:space="preserve"><tspan fill="#59636e">Opening </tspan><tspan fill="#1e5ac3" text-decoration="underline">https://mohammedazab.com</tspan><tspan fill="#59636e"> ...</tspan></text></g>
+  <g class="l" style="animation-delay:5.60s"><text x="40" y="482" font-size="18"><tspan fill="#1a7f37">❯ </tspan><tspan class="c" fill="#1f2328">▌</tspan></text></g>
 </svg>
